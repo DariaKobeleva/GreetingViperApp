@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		20C28CC72C5BFD0200EF1EC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C28CC62C5BFD0200EF1EC4 /* AppDelegate.swift */; };
 		20C28CC92C5BFD0200EF1EC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C28CC82C5BFD0200EF1EC4 /* SceneDelegate.swift */; };
-		20C28CCB2C5BFD0200EF1EC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C28CCA2C5BFD0200EF1EC4 /* ViewController.swift */; };
+		20C28CCB2C5BFD0200EF1EC4 /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C28CCA2C5BFD0200EF1EC4 /* GreetingViewController.swift */; };
 		20C28CCE2C5BFD0200EF1EC4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 20C28CCD2C5BFD0200EF1EC4 /* Base */; };
 		20C28CD02C5BFD0300EF1EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C28CCF2C5BFD0300EF1EC4 /* Assets.xcassets */; };
 		20C28CD32C5BFD0300EF1EC4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 20C28CD22C5BFD0300EF1EC4 /* Base */; };
+		20C28CDB2C5C141A00EF1EC4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C28CDA2C5C141A00EF1EC4 /* Person.swift */; };
+		20C28CDE2C5C14B400EF1EC4 /* GreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C28CDD2C5C14B400EF1EC4 /* GreetingPresenter.swift */; };
+		20C28CE02C5C14BD00EF1EC4 /* GreetingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C28CDF2C5C14BD00EF1EC4 /* GreetingInteractor.swift */; };
+		20C28CE22C5C14EC00EF1EC4 /* GreetingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C28CE12C5C14EC00EF1EC4 /* GreetingConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20C28CC32C5BFD0200EF1EC4 /* GreetingViperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetingViperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C28CC62C5BFD0200EF1EC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20C28CC82C5BFD0200EF1EC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20C28CCA2C5BFD0200EF1EC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20C28CCA2C5BFD0200EF1EC4 /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
 		20C28CCD2C5BFD0200EF1EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20C28CCF2C5BFD0300EF1EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20C28CD22C5BFD0300EF1EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20C28CD42C5BFD0300EF1EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C28CDA2C5C141A00EF1EC4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		20C28CDD2C5C14B400EF1EC4 /* GreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPresenter.swift; sourceTree = "<group>"; };
+		20C28CDF2C5C14BD00EF1EC4 /* GreetingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractor.swift; sourceTree = "<group>"; };
+		20C28CE12C5C14EC00EF1EC4 /* GreetingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,25 @@
 			children = (
 				20C28CC62C5BFD0200EF1EC4 /* AppDelegate.swift */,
 				20C28CC82C5BFD0200EF1EC4 /* SceneDelegate.swift */,
-				20C28CCA2C5BFD0200EF1EC4 /* ViewController.swift */,
+				20C28CDC2C5C149300EF1EC4 /* Greeting */,
+				20C28CDA2C5C141A00EF1EC4 /* Person.swift */,
 				20C28CCC2C5BFD0200EF1EC4 /* Main.storyboard */,
 				20C28CCF2C5BFD0300EF1EC4 /* Assets.xcassets */,
 				20C28CD12C5BFD0300EF1EC4 /* LaunchScreen.storyboard */,
 				20C28CD42C5BFD0300EF1EC4 /* Info.plist */,
 			);
 			path = GreetingViperApp;
+			sourceTree = "<group>";
+		};
+		20C28CDC2C5C149300EF1EC4 /* Greeting */ = {
+			isa = PBXGroup;
+			children = (
+				20C28CCA2C5BFD0200EF1EC4 /* GreetingViewController.swift */,
+				20C28CDD2C5C14B400EF1EC4 /* GreetingPresenter.swift */,
+				20C28CDF2C5C14BD00EF1EC4 /* GreetingInteractor.swift */,
+				20C28CE12C5C14EC00EF1EC4 /* GreetingConfigurator.swift */,
+			);
+			path = Greeting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C28CCB2C5BFD0200EF1EC4 /* ViewController.swift in Sources */,
+				20C28CCB2C5BFD0200EF1EC4 /* GreetingViewController.swift in Sources */,
+				20C28CE02C5C14BD00EF1EC4 /* GreetingInteractor.swift in Sources */,
+				20C28CE22C5C14EC00EF1EC4 /* GreetingConfigurator.swift in Sources */,
+				20C28CDE2C5C14B400EF1EC4 /* GreetingPresenter.swift in Sources */,
 				20C28CC72C5BFD0200EF1EC4 /* AppDelegate.swift in Sources */,
+				20C28CDB2C5C141A00EF1EC4 /* Person.swift in Sources */,
 				20C28CC92C5BFD0200EF1EC4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,8 +322,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +331,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = KobelevaDaria.GreetingViperApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,8 +354,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +363,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = KobelevaDaria.GreetingViperApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
