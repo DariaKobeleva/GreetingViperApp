@@ -25,7 +25,7 @@ class GreetingInteractor: GreetingInteractorInputProtocol {
     
     func provideGreetingData() {
         let person = Person(name: "Tim", surname: "Cook")
-        let greetingData = GreetingData(name: person.name, surname: person.name)
+        let greetingData = GreetingData(name: person.name, surname: person.surname)
         presenter.receiveGreetingData(greetingData: greetingData)
     }
 }
