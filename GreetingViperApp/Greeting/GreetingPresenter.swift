@@ -14,12 +14,20 @@ struct GreetingData {
 
 class GreetingPresenter: GreetingViewOutputProtocol {
     unowned private let view: GreetingViewInputProtocol
+    var interactor: GreetingInteractorInputProtocol!
     
     required init(view: any GreetingViewInputProtocol) {
         self.view = view
     }
     
     func didTapShowGreetingButton() {
-        <#code#>
+        interactor.provideGreetingData()
+    }
+}
+
+extension GreetingPresenter: GreetingInteractorOutputProtocol {
+    func receiveGreetingData(greetingData: GreetingData) {
+        let greeting = "Hello, \(greetingData.name) \(greetingData.surname)"
+        view.setGreeting(greeting)
     }
 }
